@@ -6,12 +6,17 @@ import CategoryPage from './CategoryPage';
 import LanguageSelector from './LanguageSelector';
 import './i18n';
 import './styles.css';
+import { useParams, Link, useNavigate } from 'react-router-dom';
+import { AiFillHome } from 'react-icons/ai';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <nav className="navbar">
+          <div><Link to="/">
+            <AiFillHome style={{ color: 'black' }} />
+          </Link></div>
           <div className="navbar-right">
             <LanguageSelector />
           </div>

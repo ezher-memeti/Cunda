@@ -32,7 +32,7 @@ const CategoryPage = () => {
             </div>
 
             <h1>{t(category.titleKey)}</h1>
-            <Link to="/">{t("Back to Home")}</Link>
+
 
 
             <div className="menu-cards">
