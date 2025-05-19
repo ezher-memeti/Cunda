@@ -39,7 +39,7 @@ const CategoryPage = () => {
                 {items.map(({ id, name, price }) => (
                     <div key={id} className="menu-card">
                         <span className="item-name">{name}</span>
-                        <span className="item-price">${price.toFixed(2)}</span>
+                        <span className="item-price">{price.toFixed(2)}</span>
                     </div>
                 ))}
             </div>
