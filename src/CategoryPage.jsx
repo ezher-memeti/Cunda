@@ -27,7 +27,7 @@ const CategoryPage = () => {
                         onClick={() => navigate(`/${cat.id}`)}
                         className={`category-tab ${cat.id === categoryId ? 'active' : ''}`}
                     >
-                        {cat.titleKey}
+                        {t(cat.titleKey)}
                     </button>
                 ))}
             </div>

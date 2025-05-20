@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { categories } from './data.js';
+import { useTranslation } from 'react-i18next';
 
 const Home = () => {
+    const { t } = useTranslation();
 
     return (
         <div className="home-container">
@@ -16,7 +18,7 @@ const Home = () => {
                         className="category-card"
                         style={{ backgroundImage: `url(${backgroundImage})` }}
                     >
-                        <h2>{titleKey}</h2>
+                        <h2>{t(titleKey)}</h2>
                     </Link>
                 ))}
             </div>

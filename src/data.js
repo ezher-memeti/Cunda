@@ -11,7 +11,7 @@ export const categories = [
     },
     {
         id: 'tea',
-        titleKey: 'tea',
+        titleKey: 'Tea',
         backgroundImage: '/images/tea.jpg',
     },
     {
@@ -104,10 +104,6 @@ export const itemTypes = [
     { id: '18', typeId: 'Juice', name: 'Orange' },
     { id: '18', typeId: 'Juice', name: 'Strawberry' },
     { id: '18', typeId: 'Juice', name: 'Multivitamin' },
-
-
-
-
 
 
 ];
