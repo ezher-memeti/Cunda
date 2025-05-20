@@ -90,6 +90,7 @@ body {
     height: 150px;
     display: flex;
     justify-content: left;
+    align-items: left;
     color: white;
     background-color: #444;
     background-size: cover;
