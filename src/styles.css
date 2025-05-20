@@ -88,6 +88,8 @@ body {
     position: relative;
     flex: 0 0 250px;
     height: 150px;
+    display: flex;
+    justify-content: left;
     color: white;
     background-color: #444;
     background-size: cover;
