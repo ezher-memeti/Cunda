@@ -2,27 +2,27 @@ export const categories = [
     {
         id: 'hot-coffees',
         titleKey: 'Hot Coffees',
-        backgroundImage: '/images/test.jpg',
+        backgroundImage: '/images/HOTCOFFE.jpg',
     },
     {
         id: 'cold-coffees',
         titleKey: 'Cold Coffees',
-        backgroundImage: '/images/cold-coffee.jpg',
+        backgroundImage: '/images/COLDCOFFE.jpg',
     },
     {
         id: 'tea',
         titleKey: 'Tea',
-        backgroundImage: '/images/tea.jpg',
+        backgroundImage: '/images/TEA.jpg',
     },
     {
         id: 'drinks',
         titleKey: 'Drinks',
-        backgroundImage: '/images/drinks.jpg',
+        backgroundImage: '/images/DRINK!.jpg',
     },
     {
         id: 'cocktails',
         titleKey: 'Cocktails',
-        backgroundImage: '/images/cocktails.jpg',
+        backgroundImage: '/images/KOKTEYL.jpg',
     },
 ];
 
